@@ -1,6 +1,6 @@
  <style>
    img{
-			width: 100%;
+		         align-content: center;
 			 outline-width:0px; 
 			  vertical-align:top; 
 		}
