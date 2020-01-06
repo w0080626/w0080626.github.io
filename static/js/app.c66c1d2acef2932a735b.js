@@ -134,12 +134,12 @@ webpackJsonp([5], {
         e.a = [{
             path: "",
             redirect: {
-                name: "BlogList"
+                name: "TechnologyList"
             }
         },
         {
-            path: "BlogList",
-            name: "BlogList",
+            path: "TechnologyList",
+            name: "TechnologyList",
             component: function(t) {
                 return s.e(0).then(function() {
                     var e = [s(805)];
@@ -149,8 +149,8 @@ webpackJsonp([5], {
             }
         },
         {
-            path: "BlogDetail/:number",
-            name: "BlogDetail",
+            path: "TechnologyDetail/:number",
+            name: "TechnologyDetail",
             component: function(t) {
                 return s.e(1).then(function() {
                     var e = [s(804)];
@@ -186,7 +186,7 @@ webpackJsonp([5], {
             }
         },
         {
-            path: "/Blog",
+            path: "/Technology",
             component: function(t) {
                 return s.e(2).then(function() {
                     return t(s(803))
@@ -197,7 +197,7 @@ webpackJsonp([5], {
         },
         {
             path: "*",
-            redirect: "/Blog"
+            redirect: "/Technology"
         }]
     },
     331 : function(t, e, s) {
@@ -719,7 +719,7 @@ webpackJsonp([5], {
             computed: n()({},
             s.i(o.b)(["copyright", "recordNumber", "gitHubUser", "showQQGroup", "thirdPartySite"]), {
                 isBlog: function() {
-                    return this.$route.name && this.$route.name.startsWith("Blog")
+                    return this.$route.name && this.$route.name.startsWith("Technology")
                 },
                 isAboutMe: function() {
                     return "AboutMe" === this.$route.name
@@ -1179,7 +1179,7 @@ webpackJsonp([5], {
                     attrs: {
                         tag: "li",
                         to: {
-                            name: "BlogList"
+                            name: "TechnologyList"
                         }
                     }
                 },
@@ -1215,7 +1215,7 @@ webpackJsonp([5], {
                         }
                     }
                 },
-                [t._v("Long's Blog")])])])])
+                [t._v("Long's Technology Sharing")])])])])
             },
             staticRenderFns: []
         }
