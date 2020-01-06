@@ -21,7 +21,7 @@ webpackJsonp([2], {
             methods: s()({},
             a.i(i.a)(["setLabels", "updateActiveLabel"]), {
                 setActiveLabel: function(e) {
-                    "BlogDetail" === this.$route.name ? (this.updateActiveLabel(e), this.$router.push("/")) : this.activeLabel && e && this.activeLabel.name === e.name ? this.updateActiveLabel(null) : this.updateActiveLabel(e)
+                    "TechnologyDetail" === this.$route.name ? (this.updateActiveLabel(e), this.$router.push("/")) : this.activeLabel && e && this.activeLabel.name === e.name ? this.updateActiveLabel(null) : this.updateActiveLabel(e)
                 }
             })
         }

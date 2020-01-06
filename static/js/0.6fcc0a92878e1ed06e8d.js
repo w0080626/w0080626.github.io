@@ -218,7 +218,7 @@ webpackJsonp([0], {
                         attrs: {
                             tag: "a",
                             to: {
-                                name: "BlogDetail",
+                                name: "TechnologyDetail",
                                 params: {
                                     number: t.number,
                                     issue: t
