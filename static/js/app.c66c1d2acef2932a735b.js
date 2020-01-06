@@ -1208,7 +1208,7 @@ webpackJsonp([5], {
                 [t._v(t._s(t.recordNumber))]) : t._e(), t._v(" "), s("div", {
                     staticClass: "powered"
                 },
-                [t._v("\n      技术分享 - "), s("span", {
+                [t._v("\n      "), s("span", {
                     on: {
                         click: function(e) {
                             t.openThirdPartySite("http://luchenglong.com")
