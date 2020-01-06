@@ -18,7 +18,7 @@
                            
         Have fun. Don't forget to bookmark this website :)
                        
-        Mr.Long's Blog
+        Mr.Long's Technology Sharing.
 ```
     
 ![intro](https://www.luchenglong.com/intro_img/1.png)
