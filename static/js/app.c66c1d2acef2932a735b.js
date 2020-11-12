@@ -1211,7 +1211,7 @@ webpackJsonp([5], {
                 [t._v("\n      "), s("span", {
                     on: {
                         click: function(e) {
-                            t.openThirdPartySite("https://luchenglong.com")
+                            t.openThirdPartySite("https://www.luchenglong.com")
                         }
                     }
                 },
