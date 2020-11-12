@@ -232,7 +232,7 @@ webpackJsonp([5], {
             },
             gitHubUser: null,
             gitHubUsername: "w0080626",
-            copyright: "2015 - 2018",
+            copyright: "2015 - 2020",
             recordNumber: "",
             repo: "w0080626/w0080626.github.io",
             pageSize: 10,
@@ -719,7 +719,7 @@ webpackJsonp([5], {
             computed: n()({},
             s.i(o.b)(["copyright", "recordNumber", "gitHubUser", "showQQGroup", "thirdPartySite"]), {
                 isBlog: function() {
-                    return this.$route.name && this.$route.name.startsWith("Technology")
+                    return this.$route.name && this.$route.name.startsWith("tech")
                 },
                 isAboutMe: function() {
                     return "AboutMe" === this.$route.name
@@ -1211,7 +1211,7 @@ webpackJsonp([5], {
                 [t._v("\n      "), s("span", {
                     on: {
                         click: function(e) {
-                            t.openThirdPartySite("http://luchenglong.com")
+                            t.openThirdPartySite("https://luchenglong.com")
                         }
                     }
                 },
